@@ -1,0 +1,112 @@
+@media (max-width: 1024px) {
+  .power {
+    width: 1000px;
+  }
+  .power-content {
+    width: 678px;
+    height: 212px;
+    gap: 32px;
+    position: absolute;
+    top: calc((505px - 212px) / 2);
+    left: 130px;
+    color: white;
+  }
+  .power-content p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+  .power-content button {
+    width: 185px;
+    height: 50px;
+    padding: 12px 34px;
+    gap: 10px;
+    border-radius: 109px;
+    background-color: var(--primary-color);
+  }
+  .solar-kits {
+    width: 1024px;
+    height: fit-content;
+    padding: 80px 0;
+    gap: 40px;
+    left: 150px;
+    margin-left: 50px;
+    justify-content: center;
+  }
+  .kit-options {
+    display: flex;
+    width: 844px;
+    justify-content: revert-layer;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+  .solar-txt {
+    width: 820px;
+    height: fit-content;
+    gap: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .energy-innovators {
+    display: flex;
+    flex-direction: column;
+  }
+  .second-energy-innovators-column {
+    gap: 32px;
+    display: flex !important; /* Temporary debug */
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  .third {
+    gap: 32px;
+    display: flex !important; /* Temporary debug */
+    flex-direction: row !important;
+    flex-wrap: wrap;
+  }
+  .value-columns {
+    width: 1024px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-evenly;
+  }
+  .testimonials-content {
+    flex-direction: column;
+  }
+  .footer-top {
+    display: flex;
+  }
+  .footer-top div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-content {
+    width: fit-content;
+    gap: 54px;
+    justify-content: center;
+    padding: 80px 50px;
+  }
+  hr {
+    width: 860px;
+  }
+  .footer-top-right nav {
+    width: inherit !important;
+    justify-content: center;
+  }
+  .footer-top-right {
+    justify-content: start;
+  }
+  .footer-top-left {
+    width: fit-content !important;
+  }
+}

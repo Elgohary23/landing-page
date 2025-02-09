@@ -1,0 +1,77 @@
+@media (max-width: 1024px) {
+  nav {
+    background-color: #0b9586;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-content {
+    /* Your styles here */
+    width: 1024px;
+    padding: 0px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+    margin: 0px;
+  }
+  .hero-content img {
+    /* Your styles here */
+    display: flex;
+  }
+  .hero-content {
+    /* Your styles here */
+    width: calc(50%);
+    left: 150px;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .hero-image img{
+    width: 1000px;
+  }
+  .features {
+    width: 1024px;
+    display: grid;
+    gap: 20px;
+    height: fit-content;
+    grid-template-rows: repeat(2, 1fr);
+   
+  }
+  .features .right {
+    grid-row: 2/3;
+    margin-bottom: 50px;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -106px;
+    position: relative;
+
+
+  }
+  .features .right div {
+    position: absolute;
+    width: 266px;
+    height: 208px;
+    left: -60px;
+    padding: 24px 30px;
+    gap: 28px;
+    border-radius: 12px 0 0 12px;
+    background-color: var(--primary-color);
+}
+  .features .left {
+    grid-row: 1/2;
+    height: fit-content;
+  }
+}
+
+
+/* nav & hero & Features */

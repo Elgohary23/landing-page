@@ -1,0 +1,62 @@
+.energy-innovators {
+  background-color: #ffbb1c0d;
+  display: flex;
+  height: fit-content;
+  padding: 80px 50px;
+  gap: 75px;
+}
+
+.second-energy-innovators-column {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.third {
+  gap: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-card img {
+  opacity: 50%;
+  width: 225px;
+  height: 49px;
+  opacity: 0px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.img-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3cab9026;
+  width: 310.67px;
+  height: 106px;
+  padding: 10px;
+}
+.product-card {
+  width: 358.67px;
+  height: auto;
+  border-radius: 12px;
+  border: 1px solid;
+  padding: 24px;
+  gap: 32px;
+  border: 1px solid #3CAB90;
+  background-color: #3CAB900D;
+  
+
+}
+.product-card-content{
+width: 310.67px;
+gap: 20px;
+}
+.product-card-content button {
+  background-color: #3cab90;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
